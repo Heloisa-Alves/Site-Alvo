@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvo Serralheria</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css" />
+
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top">
+
+    <a href="QuemSomos.html" target="_blank" rel="next" class="nav-brand mx-5">
+        <img src="img/logotipoAlvo.jpeg" width="100px" height="100px">
+    </a>
+
+
+        <ul class="navbar-nav m-3">
+            <li class="nav-item">
+              <a href="index.html"  class="nav-link">
+                <i class="bi bi-house mx-md-2" style="font-size: 20px; color: green;"></i>
+             
+                  Home
+                </a>  
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    <i class="bi bi-clipboard-check mx-md-2" style="font-size: 20px; color:green;"></i>
+
+                    Projetos
+                </a>
+                <div class="dropdown-menu">
+                    <a href="Galeria.html" target="_blank" rel="next"  class="dropdown-item">Galeria</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="FaleConosco.html" target="_blank" rel="next" class="nav-link">
+                    <i class="bi bi-telephone mx-md-2" style="font-size: 20px; color: green;"></i>
+                    Fale Conosco</a>
+            </li>
+            <li class="nav-item">
+                <a href="QuemSomos.html" target="_blank" rel="next"  class="nav-link">
+                    <i class="bi bi-lightbulb mx-md-2" style="font-size: 20px; color: green;"></i>
+                    Quem somos
+                </a>
+            </li>
+            <li>
+              <form class="d-flex">
+                <input class="form-control me-2 m-3" id="pesquisa" type="search" placeholder="Pesquisar" aria-label="Search">
+                <button class="btn btn-outline-success m-3" type="submit">Pesquisar</button>
+              </form>
+            </li>
+            <li>
+              <button class="btn btn-outline-success m-3" type="submit" id="botaocadastrar"><a href="Cadastro.html" target="_blank" rel="next" id="botaocadastrarlink">Cadastre-se</a></button>
+            </li>
+
+        </ul>
+</nav>
+
+
+<main>
+    <section class="container-fluid">
+      <div class="row">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+          </ol>
+          <!-- Indicators -->
+
+          <!-- Itens do carousel -->
+          <div class="carousel-inner" role="listbox">
+            
+            <div class="item active">
+              <img class="first-slide" src="https://clickpetroleoegas.com.br/wp-content/uploads/2019/08/soldador-metal%C3%BArgica-fallgater-RS-658x490.jpeg.webp" alt="First slide">
+                <div class="carousel-caption">
+                  <h1 id="mEquipamentos">Melhores Equipamentos</h1>
+                </div>
+            </div>
+
+            <div class="item">
+              <img class="second-slide" src="https://img.freepik.com/fotos-gratis/serralheiro-em-roupas-especiais-e-oculos-de-protecao-atua-na-producao-de-processamento-de-metais-com-rebarbadora_168410-1415.jpg?size=626&ext=jpghttps://img.freepik.com/fotos-gratis/serralheiro-em-roupas-especiais-e-oculos-de-protecao-atua-na-producao-de-processamento-de-metais-com-rebarbadora_168410-1415.jpg?size=626&ext=jpg" alt="Second slide">
+                <div class="carousel-caption">
+                  <h1 id="mEquipamentos">Melhores Ferramentas</h1>
+                </div>
+            </div>
+
+            <div class="item">
+              <img class="third-slide" src="http://www.acoplano.com.br/blog/wp-content/uploads/2019/04/motagem-de-estruturas-metalicas-acoplano.jpg" alt="Third slide">
+                <div class="carousel-caption">
+                  <h1 id="mEquipamentos" >Melhor Equipe</h1>
+              </div>
+            </div>
+
+        </div>
+            
+        <!-- botões > carousel -->
+
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+    </section>
+    <br>
+    <!-- Alert -->
+    <div class="alert alert-success" role="alert" id="AlertIndex">
+      <h4 class="alert-heading">Bem Vindo(a)!</h4>
+      <p>Estamos com uma mega promoções nos nossos produtos mais vendidos, faça já seu orçamento!</p>
+      <hr>
+      <p class="mb-0">Entre para a nossa família, Alvo Estruturas Metálica agradece.</p>
+    </div>
+
+  <!-- Cards -->
+ 
+  <div class="card mb-3" style="max-width: 540px;" id="cards">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2019/06/17/grades-para-janela-e1560779494893.jpg" class="img-fluid rounded-start" alt="Imagem grades card">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Grades</h5>
+          <p class="card-text">Mantenha sua casa cada vez mais protegida, nossa linha de grades está ai para ajudar a você, com uma diversidade imensa de materias.</p>
+          <p class="card-text"><small class="text-muted">20% de desconto</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;" id="cards">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://www.decorfacil.com/wp-content/uploads/2016/11/20161116imagem11-1.png" class="img-fluid rounded-start" alt="Imagem escada card">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Escada Caracol</h5>
+          <p class="card-text">Otimaza seu espaço, além de ser super resistente faça já a sua.</p>
+          <p class="card-text"><small class="text-muted">25% de desconto</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="card mb-3" style="max-width: 540px;" id="cards">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://i.pinimg.com/564x/ce/df/7a/cedf7ae49187403bb0ff5f0f95e9124c.jpg" class="img-fluid rounded-start" alt="Imagem portao card">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Portões</h5>
+          <p class="card-text">Nossa linha mais bem elogiada, faça agora seu orçamento do seu tão sonhado portão, mantenham sua casa protegida e ainda por cima bonita.</p>
+          <p class="card-text"><small class="text-muted">10% de desconto</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;" id="cards">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://www.2quartos.com/y/917/churrasqueira-e1460493722842-700.webp" class="img-fluid rounded-start" alt="Imagem churrasqueira card">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Churrasqueiras</h5>
+          <p class="card-text">Toda a nossa linha de churrasqueiras incluindo tachos, com uma alta qualidade e resistencia ao fogo, tudo isso para deixar aquele churrasquinho mais gostos.</p>
+          <p class="card-text"><small class="text-muted">25% de desconto</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;" id="cards">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://i.pinimg.com/564x/69/26/e3/6926e3376a40f9322c46849fa5fd4414.jpg" class="img-fluid rounded-start"  alt="Imagem lixeira card">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Lixeiras</h5>
+          <p class="card-text">Todas as nossas diversas lixeiras, com pintura eletrostática, materia super resistente com um mega desconto.</p>
+          <p class="card-text"><small class="text-muted">40% de desconto</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  </main>
+      <div class="row footer mx-md-5 formatação" id="rodape">
+        <footer class="col-12 text-center ">
+            <p class=" text-white m-4 p-3">Copyright &copy; 2021 All rights reserved | Heloisa Alves da Silva & Alvo Estruturas Metalicas</strong></p>
+            <button class="btn btn-outline-success m-3" type="submit" id="botaocadastrar"><a href="Sobre.html" target="_blank" rel="next" id="botaosobre">Sobre</a></button>
+
+        </footer>
+      </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+</html>

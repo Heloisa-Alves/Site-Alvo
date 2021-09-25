@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(12, 161, 12);
+}
+
+.item,img {
+    width: 100%;
+}
+
+.area-conteudo {
+     padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    padding: 35px;
+    border-top: 3px solid #ddd;
+    margin-top: 35px;
+    
+}
+.nav-item{
+    font-size:20px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.911);
+}
+button{
+    height: 35x;
+    width: 90px;
+}
+#botaocadastrar{
+    height: 35x;
+    width: 120px;
+  
+}
+#botaocadastrarlink{
+    text-decoration: none;
+    color: white;
+}
+
+#pesquisa{
+    background-color: rgba(0, 128, 0, 0.671);
+    border: solid 1px white;
+}
+
+#mEquipamentos{
+    background-color:rgba(255, 255, 255, 0.877);
+    color: darkgreen;    
+}
+
+#oi{
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+}
+.area-conteudo{
+    margin: 5px 10px 0 230px;
+}
+#cards{
+    margin: 50px 350px;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+}
+#AlertIndex{
+    margin: 15px 100px;
+}
+#FundoQuemSomos{
+    background-image: url(../img/fundoQuem.jpg);
+}
+#bodyCadastro{
+    background-image: url(../img/fundoQuem.jpg);
+    margin: 150px 0 0 0;
+
+
+}
+#mainQuemSomos, #mainCadastro{
+    background-color: rgba(8, 70, 8, 0.733);
+    color: white;
+    box-shadow: green;
+    margin: 150px 400px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.719);
+
+}
+#footerQuemSomos, #footerCadastro{
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+#mainGaleria{
+    margin-top: 100px;
+   
+}
+#backgroundGaleria{
+    background-color: green;
+}
+#backgroundGaleria{
+    background-color: rgb(70, 199, 70);
+}
+
+
+#complemento{
+    color: white;
+}
+#sobre{
+    color: white;
+
+}
+#alertsobre{
+    margin: 150px 150px 0 150px;
+}
+#botaosobre{
+    text-decoration: none;
+    color: white;
+    height: 50x;
+    width: 120px;
+    font-size: 22px;
+}
